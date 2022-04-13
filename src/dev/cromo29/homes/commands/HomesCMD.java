@@ -20,7 +20,7 @@ public class HomesCMD extends DurkCommand {
             return;
         }
 
-        if (!hasPermission("29Casas.ADM")) listHomes(asPlayer(), asPlayer().getName());
+        if (!hasPermission("29Homes.ADM")) listHomes(asPlayer(), asPlayer().getName());
         else listHomes(asPlayer(), argAt(0));
     }
 

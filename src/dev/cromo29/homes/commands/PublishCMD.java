@@ -16,7 +16,7 @@ public class PublishCMD extends DurkCommand {
             return;
         }
 
-        if (!hasPermission("29Casas.VIP") && !hasPermission("29Casas.ADM")) {
+        if (!hasPermission("29Homes.VIP") && !hasPermission("29Homes.ADM")) {
             sendMessage("<c>Apenas jogadores <6>VIPs <c>podem deixar uma casa pública!");
             return;
         }

@@ -43,7 +43,7 @@ public class HomeCMD extends DurkCommand {
 
         } else {
 
-            if (hasPermission("29Casas.ADM")) {
+            if (hasPermission("29Homes.ADM")) {
                 asPlayer().teleport(home.getLocation());
 
                 String anotherOwner = " de '<d>" + owner + "<f>'";

@@ -97,9 +97,9 @@ public class Home {
     }
 
     public void teleport(Player player) {
-        if (!player.hasPermission("29Casas.VIP")) {
+        if (!player.hasPermission("29Homes.VIP")) {
 
-            TXT.sendMessages(player, "Você sera teleportado em 3 segundos.");
+            TXT.sendMessages(player, "Você será teleportado em 3 segundos.");
 
             String finalOwner = owner;
 

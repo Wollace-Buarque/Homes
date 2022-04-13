@@ -108,10 +108,12 @@ public class HomesAPI extends MySQL {
     }
 
     public static int getLimit(Player player) {
+        if (player.hasPermission("29Homes.ADM")) return 1000;
+
         int toReturn = 0;
 
         for (int index = 0; index < 1000; index++) {
-            if (player.hasPermission("29Casas.limit." + index)) {
+            if (player.hasPermission("29Homes.limit." + index)) {
                 toReturn = index;
                 break;
             }

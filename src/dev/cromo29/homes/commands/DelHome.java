@@ -13,7 +13,7 @@ public class DelHome extends DurkCommand {
     public void perform() {
         if (isArgsLength(2)) {
 
-            if (!hasPermission("29Casas.ADM")) {
+            if (!hasPermission("29Homes.ADM")) {
                 warnNoPermission();
                 return;
             }
@@ -62,7 +62,7 @@ public class DelHome extends DurkCommand {
 
                 } else {
 
-                    if (hasPermission("29Casas.ADM")) {
+                    if (hasPermission("29Homes.ADM")) {
                         sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador> casa");
                         sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador:casa>");
                     }
@@ -85,7 +85,7 @@ public class DelHome extends DurkCommand {
 
         } else {
 
-            if (hasPermission("29Casas.ADM")) {
+            if (hasPermission("29Homes.ADM")) {
                 sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador> casa");
                 sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador:casa>");
             }
