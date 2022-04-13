@@ -111,7 +111,7 @@ public class DelHome extends DurkCommand {
 
     @Override
     public List<String> getAliases() {
-        return getList("deletehome");
+        return getList("deletehome", "deletarcasa");
     }
 
     @Override
