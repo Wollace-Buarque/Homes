@@ -1,0 +1,15 @@
+Settings:
+  Log: true
+  Worlds:
+    - "world"
+
+MySQL:
+  Enable: false
+  Transfer: false
+  User: ""
+  Password: ""
+  Port: 3306
+  Database: ""
+  Homes: "homes"
+  MultiHome: "multihomes"
+  Host: ""

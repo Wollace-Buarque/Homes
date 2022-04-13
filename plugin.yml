@@ -1,0 +1,7 @@
+name: 29Homes
+main: dev.cromo29.homes.HomePlugin
+version: 2.0.0
+author: Cromo29
+
+depend:
+  - DurkCore
