@@ -5,9 +5,9 @@ import dev.cromo29.homes.api.MultiHomeTransfer;
 import dev.cromo29.homes.api.MySQL;
 import dev.cromo29.homes.commands.*;
 import dev.cromo29.homes.object.Home;
-import dev.cromo29.durkcore.API.DurkPlugin;
-import dev.cromo29.durkcore.SpecificUtils.LocationUtil;
-import dev.cromo29.durkcore.Util.GsonManager;
+import dev.cromo29.durkcore.api.DurkPlugin;
+import dev.cromo29.durkcore.specificutils.LocationUtil;
+import dev.cromo29.durkcore.util.GsonManager;
 import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
 

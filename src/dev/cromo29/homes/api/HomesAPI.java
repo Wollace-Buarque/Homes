@@ -2,8 +2,8 @@ package dev.cromo29.homes.api;
 
 import dev.cromo29.homes.HomePlugin;
 import dev.cromo29.homes.object.Home;
-import dev.cromo29.durkcore.SpecificUtils.LocationUtil;
-import dev.cromo29.durkcore.Util.TXT;
+import dev.cromo29.durkcore.specificutils.LocationUtil;
+import dev.cromo29.durkcore.util.TXT;
 import org.bukkit.entity.Player;
 
 import java.sql.Connection;

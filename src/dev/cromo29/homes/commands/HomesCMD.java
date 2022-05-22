@@ -2,7 +2,7 @@ package dev.cromo29.homes.commands;
 
 import dev.cromo29.homes.api.HomesAPI;
 import dev.cromo29.homes.object.Home;
-import dev.cromo29.durkcore.API.DurkCommand;
+import dev.cromo29.durkcore.api.DurkCommand;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.HoverEvent;

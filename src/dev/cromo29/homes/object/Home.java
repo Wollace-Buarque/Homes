@@ -1,6 +1,6 @@
 package dev.cromo29.homes.object;
 
-import dev.cromo29.durkcore.Util.TXT;
+import dev.cromo29.durkcore.util.TXT;
 import dev.cromo29.homes.api.MySQL;
 import dev.cromo29.homes.HomePlugin;
 import org.bukkit.Location;
@@ -99,7 +99,7 @@ public class Home {
     public void teleport(Player player) {
         if (!player.hasPermission("29Homes.VIP")) {
 
-            TXT.sendMessages(player, "Você será teleportado em 3 segundos.");
+            TXT.sendMessages(player, "Você vai ser teleportado em 3 segundos.");
 
             String finalOwner = owner;
 

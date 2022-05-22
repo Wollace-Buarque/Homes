@@ -1,7 +1,7 @@
 package dev.cromo29.homes.api;
 
 import dev.cromo29.homes.HomePlugin;
-import dev.cromo29.durkcore.SpecificUtils.LocationUtil;
+import dev.cromo29.durkcore.specificutils.LocationUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 

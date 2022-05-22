@@ -1,10 +1,8 @@
 package dev.cromo29.homes.commands;
 
 import dev.cromo29.homes.api.HomesAPI;
-import dev.cromo29.homes.HomePlugin;
 import dev.cromo29.homes.object.Home;
-import dev.cromo29.durkcore.API.DurkCommand;
-import org.bukkit.scheduler.BukkitRunnable;
+import dev.cromo29.durkcore.api.DurkCommand;
 
 import java.util.List;
 

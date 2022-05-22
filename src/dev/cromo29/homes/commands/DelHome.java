@@ -3,7 +3,7 @@ package dev.cromo29.homes.commands;
 import dev.cromo29.homes.api.HomesAPI;
 import dev.cromo29.homes.api.Logs;
 import dev.cromo29.homes.object.Home;
-import dev.cromo29.durkcore.API.DurkCommand;
+import dev.cromo29.durkcore.api.DurkCommand;
 
 import java.util.List;
 
@@ -85,7 +85,7 @@ public class DelHome extends DurkCommand {
 
         } else {
 
-            if (hasPermission("29Homes.ADM")) {
+            if (hasPermission("29Casas.ADM")) {
                 sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador> casa");
                 sendMessage(" <d>* <f>/" + getUsedCommand() + " <jogador:casa>");
             }
@@ -111,7 +111,7 @@ public class DelHome extends DurkCommand {
 
     @Override
     public List<String> getAliases() {
-        return getList("deletehome", "deletarcasa");
+        return getList("deletehome");
     }
 
     @Override
